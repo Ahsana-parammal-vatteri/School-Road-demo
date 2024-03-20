@@ -1,0 +1,3 @@
+The system consists of one school (S), 26 locations (L) and 28 road segments (R). The school and road segments may fail being subjected to hazard scenarios H. Once a hazard event occurs, repair works will take place with priorities S → R0 → R1 → R2 → ... → R28. The works are done only for failed components, and repairing a component takes a day.
+Of interest is the expected number of days of education loss for children in each location. A location has access to education when the school and roads it is connected to all survive. 
+For example, L20 has access to education if S, R26, R24, R6, R13, and R19 are in operation. 
